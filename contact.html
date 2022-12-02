@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Robert Pritchard Personal Website</title>
+        <link rel="stylesheet" type="text/css" href="portfolio.css"/>
+    </head>
+    <body>
+        <div class="headbar">
+            <a href="home.html" tabindex="1">
+                <p>
+                    Home
+                </p>
+            </a>
+            
+            <a href="bio.html" tabindex="2">
+                <p>
+                    Bio
+                </p>
+            </a>
+            <a href="contact.html" tabindex="3">
+                <p>
+                    Contact
+                </p>
+            </a>
+             
+        </div>
+       <div id="homeTitle">
+            <p>
+                Robert Pritchard
+            </p>
+            <p>
+                ______________________
+            </p>
+            <p>
+                Contact Information
+            </p>
+           
+       </div>
+       <div class="contact">
+            <div class="contact-type">
+                <img class="contact-image" src="images/letter.png" alt="Email Icon">
+                <div class="contact-text" tabindex="4">
+                robertpritch8@gmail.com
+                </div>
+                
+            </div>
+            <div class="contact-type">
+                <img class="contact-image" src="images/phonenumber.png" alt="Phone Icon">
+                <div class="contact-text" tabindex="5">
+                +1 (205) 603-9313
+                </div>
+                
+            </div>
+
+            <div class="contact-type">
+                <img class="contact-image" src="images/linkedin.png" alt="LinkedIn Icon">
+                
+                <a href="https://www.linkedin.com/in/robert-pritchard-328766205/">
+                    <div class="contact-text" tabindex="6">
+                    My LinkedIn!
+                </div>
+                </a>
+                
+                
+            </div>
+
+       </div>
+       <div class="contact-inbetween">
+        Contact Form
+       </div>
+       
+       <form class="contact-form">
+        <ul>
+        <li><label for="firstname">First Name: (required)</label>
+            <input type="text" name="firstname" required tabindex="6" placeholder="John"></li>
+        
+        <li>
+            <label for="lastname">Last Name: (required)</label>
+            <input type="text" name="lastname" required tabindex="7" placeholder="Smith">
+        </li>
+        <li>
+            <label for="email">Email: (required)</label>
+        <input type="email" name="email" required tabindex="8" placeholder="johnsmith@email.com">
+
+        </li>
+        
+        <li>
+            <label for="subject">Subject: (required)</label>
+        <input type="text" name="subject" required tabindex="9" placeholder="Work opprotunity">
+        </li>
+        
+        <li>
+            <input type="checkbox" name="urgent" tabindex="10">
+        <label for="urgent">Urgent?</label>
+        </li>
+        
+        <input type="submit" value="Submit" tabindex="11" id="submitted">
+        </ul>  
+
+    </form>
+    
+    <div class="contact-inbetween">
+        My Availability
+    </div>
+
+    <div id="calendar">
+        <iframe src="https://calendar.google.com/calendar/embed?src=robertpritch8%40gmail.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no" tabindex="12"></iframe>
+    </div>
+    <script src="portfolio.js"></script>
+
+
+   </body>
+</html>
+
