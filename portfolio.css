@@ -1,0 +1,173 @@
+body {
+	font-family: Avenir, sans-serif;
+
+}
+
+.headbar {
+	background-color: #7b0096;
+	height: 65px;
+	width: 100%;
+	
+}
+.headbar p {
+	text-shadow: 1px 1px black;
+	padding-left: 10px;
+	font-size: 20px;
+	color: white;
+	float: left;
+	padding-right: 40px;
+
+}
+
+#homeTitle {
+	margin: auto;
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+/*Projects and Home CSS */
+.projects {
+	margin: auto;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+.projects-title {
+	font-size: 25px;
+	color: black;
+	
+}
+
+.projects-description {
+	font-size: 15px;
+	color: black;
+	margin-bottom: 15px;
+
+}
+
+.projects-despcription-specific {
+	font-size: 20px;
+	color: black;
+	margin-bottom: 15px;
+	margin-left: 70px;
+	margin-right: 70px;
+
+}
+
+.projects-image {
+	width: 370px;
+	height: 735px;
+
+}
+
+.projects-readmore {
+	margin: auto;
+	color: blue;
+	font-size: 15px;
+
+}
+
+/* Bio CSS */
+.bio {
+	margin: auto;
+	text-align: center;
+	font-size: 18px;
+	
+}
+
+#headshot {
+	width: 400px;
+	height: 400px;
+	margin-bottom: 20px;
+
+}
+
+.bio-text {
+	color: black;
+	margin-right: 60px;
+	margin-left: 60px;
+
+}
+
+#linkedin {
+	margin: auto;
+	margin-top: 1%;
+	text-align: center;
+	display: block;
+	width: 13%;
+
+}
+
+/*Contact CSS*/
+.contact {
+	margin: auto;
+	text-align: center;
+	
+}
+
+.contact-type {
+	display: inline-block;
+	padding-right: 95px;
+	
+}
+
+.contact-text {
+	font-size: 18px;
+	color: blue;
+
+}
+
+.contact-image {
+	margin: auto;
+	width: 50px;
+	height: 50px;
+
+}
+
+.contact-inbetween {
+	padding-top: 25px;
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+.contact-form {
+	font-size: 20px;
+	margin: auto;
+	
+}
+
+.contact-form ul {
+	list-style: none;
+	text-align: center;
+	line-height: 150%;
+
+}
+
+input:invalid:required {
+	border: 1px solid red;
+
+  }
+
+/*VVV I couldn't center these without using width, which makes it look a little off*/
+#calendar {
+	margin-left: auto;
+	width: 72%;
+	display: block;
+}
+
+
+
+/*sets placeholder text in the form to an acceptable contrast for WCAG. From w3.org*/
+::placeholder {
+	color: #767676;
+	opacity: 1;
+}
+
+
+
+
+
+
